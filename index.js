@@ -88,7 +88,7 @@ console.log(avg);
 
 
 /**
- * Map will find average of each number, Reduce will sum them up.
+ * Map will divide each number by the length and, Reduce will sum them up.
  */
 
 var avgMapReduce = actors.map((c, i, arr) => c.age / arr.length).reduce((p, c) => p + c, 0);
